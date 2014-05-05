@@ -1,0 +1,92 @@
+section, div, a, h1, h2, h3, body, figure, figcaption {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  font: inherit;
+}
+
+.group {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #5a5a5a;
+}
+
+a:visited {
+  color: #5a5a5a;
+
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: sans-serif;
+  color: #5a5a5a;
+
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 13px;
+}
+
+h1.greeting {
+  text-align: right ;
+  margin-bottom: 10px;
+}
+
+#main {
+  margin: 0 auto;
+  width: 900px;
+}
+
+section.side-links {
+  float: left;
+  width: 120px;
+  border-right: 1px solid #ccc;
+}
+
+section.side-links a {
+  float: right;
+  display: block;
+  width: 190px;
+  text-align: right;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+#content {
+  width: 758px;
+  min-height: 600px;
+  margin-left: 20px;
+  float: left;
+}
+
+figure.picture-main {
+  overflow: hidden;
+  width: 755px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/*  <img src="https://scontent-a-lga.xx.fbcdn.net/hphotos-prn1/t1.0-9/923408_10151841598612326_795754903_n.jpg">*/
