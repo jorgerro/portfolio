@@ -6,7 +6,10 @@ Portfolio.Routers.PagesRouter = Backbone.Router.extend({
 
   routes: {
     "": "home",
-    "projects": "projects"
+    "projects": "projects",
+    "resume": "resume",
+    "research": "research",
+    "extra": "extra"
   },
 
   home: function () {
@@ -17,6 +20,21 @@ Portfolio.Routers.PagesRouter = Backbone.Router.extend({
   projects: function () {
     var projectsView = new Portfolio.Views.Projects();
     this.swapView(projectsView);
+  },
+
+  resume: function () {
+    var resumeView = new Portfolio.Views.Resume();
+    this.swapView(resumeView);
+  },
+
+  research: function () {
+    var researchView = new Portfolio.Views.Research();
+    this.swapView(researchView);
+  },
+
+  extra: function () {
+    var extraView = new Portfolio.Views.Extra();
+    this.swapView(extraView);
   },
 
   swapView: function (view) {
