@@ -1,4 +1,5 @@
-section, div, a, h1, h2, h3, body, figure, figcaption {
+section, div, a, h1, h2, h3, body, figure, 
+figcaption, dl, dt, dd, ul, li {
   border: 0;
   padding: 0;
   margin: 0;
@@ -13,6 +14,10 @@ section, div, a, h1, h2, h3, body, figure, figcaption {
   content: "";
 }
 
+ul {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
   font-weight: bold;
@@ -25,7 +30,7 @@ a:visited {
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #fff;
   font-family: sans-serif;
   color: #5a5a5a;
 
@@ -52,23 +57,25 @@ h3 {
 h1.greeting {
   text-align: right ;
   margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 #main {
   margin: 0 auto;
-  width: 900px;
+  width: 1030px;
 }
 
 section.side-links {
   float: left;
-  width: 120px;
+  width: 100px;
   border-right: 1px solid #ccc;
 }
 
 section.side-links a {
   float: right;
   display: block;
-  width: 190px;
+  width: 80px;
   text-align: right;
   padding-right: 20px;
   padding-bottom: 15px;
@@ -76,7 +83,7 @@ section.side-links a {
 }
 
 #content {
-  width: 758px;
+  width: 900px;
   min-height: 600px;
   margin-left: 20px;
   float: left;
@@ -85,6 +92,7 @@ section.side-links a {
 figure.picture-main {
   overflow: hidden;
   width: 755px;
+  /*height: 400px;*/
   height: auto;
   border-radius: 5px;
 }

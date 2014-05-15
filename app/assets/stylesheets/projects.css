@@ -1,0 +1,35 @@
+
+ul.projects {
+	width: 900px;
+	display: block;
+}
+
+li.project {
+	margin-bottom: 30px;
+}
+
+span.project-links {
+	float:right;
+	font-size: 16px;
+}
+
+span.project-links a {
+	padding-left: 15px;
+}
+
+li.project img {
+	width: 750px;
+	height: auto;
+	margin: auto;
+	display: block;
+	margin-bottom: 30px;
+}
+
+ul.project-details {
+	margin-left: 90px;
+	list-style: circle;
+}
+
+ul.project-details li {
+	margin-top: 10px;	
+}
