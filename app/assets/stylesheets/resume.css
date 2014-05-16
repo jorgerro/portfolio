@@ -1,0 +1,112 @@
+
+.clear {
+  clear: both;
+}
+
+#page-wrap {
+	padding-top: 20px;
+  width: 900px;
+  float:right;
+  font: 16px Helvetica, Sans-Serif;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+#pic {
+  float: right;
+  width: auto;
+  height: 245px;
+  margin: -30px 0 0 0;
+  border: 1px solid #999;
+  background: #fff;
+  padding: 10px 0px 10px 10px;
+  border-right: none;
+}
+
+#pic img {
+  border-radius: 5px;
+}
+
+h1.fn {
+  margin: 0 0 16px 0;
+  padding: 0 0 16px 0;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: -2px;
+  border-bottom: 1px solid #999;
+}
+
+#page-wrap h2 {
+  font-size: 20px;
+  margin: 0 0 6px 0;
+  position: relative;
+}
+
+#page-wrap h2 span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-style: italic;
+  font-family: Georgia, Serif;
+  font-size: 16px;
+  color: #999;
+  font-weight:
+  normal;
+}
+
+#page-wrap p {
+  margin: 0 0 16px 0;
+}
+
+#page-wrap a {
+  color: #999;
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+}
+
+#page-wrap a:hover {
+  border-bottom-style: solid;
+  color: black;
+}
+
+#page-wrap ul {
+  margin: 0 0 32px 17px;
+}
+
+#objective {
+  width: 700px;
+  float: left;
+}
+
+#objective p {
+  font-family: Georgia, Serif;
+  font-style: italic;
+  color: #666;
+}
+
+#page-wrap dt {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: right;
+  padding: 0 20px 0 0;
+  width: 100px;
+  float:left ;
+  height: 100px;
+  border-right: 1px solid #999;
+}
+
+#page-wrap dt.skills {
+  height: 35px;
+}
+
+#page-wrap dd {
+  width: 760px;
+  float: right;
+}
+
+#page-wrap dd.clear {
+  float: none;
+  margin: 0;
+  height: 15px;
+}

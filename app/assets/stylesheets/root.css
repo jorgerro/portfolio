@@ -1,4 +1,4 @@
-section, div, a, h1, h2, h3, body, figure, 
+section, div, a, h1, h2, h3, body, figure,
 figcaption, dl, dt, dd, ul, li {
   border: 0;
   padding: 0;
@@ -92,9 +92,8 @@ section.side-links a {
 figure.picture-main {
   overflow: hidden;
   width: 755px;
-  /*height: 400px;*/
   height: auto;
   border-radius: 5px;
+  display: block;
+  margin: 0 auto;
 }
-
-/*  <img src="https://scontent-a-lga.xx.fbcdn.net/hphotos-prn1/t1.0-9/923408_10151841598612326_795754903_n.jpg">*/

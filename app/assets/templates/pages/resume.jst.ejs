@@ -1,231 +1,113 @@
+<div id="page-wrap">
 
-     <style type="text/css">
+    <img src="https://s3.amazonaws.com/freebnb_dev/front_page/jorge_hi-res.jpg" alt="Jorge Hi Res" id="pic">
 
-        .clear {
-          clear: both;
-        }
+    <div id="contact-info" class="vcard">
 
-        #page-wrap { 
-        	padding-top: 20px;
-          width: 900px; 
-          float:right;
-          font: 16px Helvetica, Sans-Serif;
-          line-height: 24px;
-          background-color: #fff;
-        }
+        <!-- Microformats! -->
 
-        #pic {
-          float: right;
-          width: auto;
-          height: 245px;
-          margin: -30px 0 0 0;
-          border: 1px solid #999;
-          background: #fff;
-          padding: 10px 0px 10px 10px;
-          border-right: none;
-        }
+        <h1 class="fn">Jorge R. Rodriguez</h1>
 
-        #pic img {
-          border-radius: 5px;
-        }
-
-        h1.fn {
-          margin: 0 0 16px 0;
-          padding: 0 0 16px 0;
-          font-size: 42px;
-          font-weight: bold;
-          letter-spacing: -2px;
-          border-bottom: 1px solid #999;
-        }
-
-        #page-wrap h2 {
-          font-size: 20px;
-          margin: 0 0 6px 0;
-          position: relative;
-        }
-
-        #page-wrap h2 span {
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          font-style: italic;
-          font-family: Georgia, Serif;
-          font-size: 16px;
-          color: #999;
-          font-weight:
-          normal;
-        }
-
-        #page-wrap p {
-          margin: 0 0 16px 0;
-        }
-
-        #page-wrap a {
-          color: #999;
-          text-decoration: none;
-          border-bottom: 1px dotted #999;
-        }
-
-        #page-wrap a:hover {
-          border-bottom-style: solid;
-          color: black;
-        }
-
-        #page-wrap ul {
-          margin: 0 0 32px 17px;
-        }
-
-        #objective {
-          width: 700px;
-          float: left;
-        }
-
-        #objective p {
-          font-family: Georgia, Serif;
-          font-style: italic;
-          color: #666;
-        }
-
-        dt {
-          font-style: italic;
-          font-weight: bold;
-          font-size: 18px;
-          text-align: right;
-          padding: 0 21px 0 0;
-          width: 100px;
-          float:left ;
-          height: 100px;
-          border-right: 1px solid #999;
-        }
-
-        dt.skills {
-          height: 35px;
-        }
-
-        dd {
-          width: 750px;
-          float: right;
-        }
-
-        dd.clear {
-          float: none;
-          margin: 0;
-          height: 15px;
-        }
-
-     </style>
-
-
-    <div id="page-wrap">
-
-        <img src="https://s3.amazonaws.com/freebnb_dev/front_page/jorge_hi-res.jpg" alt="Jorge Hi Res" id="pic">
-
-        <div id="contact-info" class="vcard">
-
-            <!-- Microformats! -->
-
-            <h1 class="fn">Resume</h1>
-
-            <p>
-                Cell: <span class="tel">909-241-0111</span><br>
-                Email: <a class="email" href="mailto:jorger.rodriguez1@gmail.com">jorger.rodriguez1@gmail.com</a><br>
-                <!-- Links: -->
-                <a href="http://www.linkedin.com/in/jorgerro"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
-                <a href="https://github.com/jorgerro/"><i class="fa fa-github"></i> Github</a>
+        <p>
+            Cell: <span class="tel">909-241-0111</span><br>
+            Email: <a class="email" href="mailto:jorger.rodriguez1@gmail.com">jorger.rodriguez1@gmail.com</a><br>
+            <!-- Links: -->
+            <a href="http://www.linkedin.com/in/jorgerro"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+            <a href="https://github.com/jorgerro/"><i class="fa fa-github"></i> Github</a>
 <!--                 <a href="http://www.jorgerafaelrodriguez.com/"><i class="fa fa-th"></i> Portfolio</a>
- -->            </p>
-        </div>
-
-        <div id="objective">
-            <p>
-                Formerly focused on making it in academia, I spent time doing research and learning to teach.
-                Before long, I discovered web development and began applying my computational skills to a wider range of problems.
-                I'm happiest when solving problems and creating something that works well and
-                looks sharp.
-            </p>
-        </div>
-
-        <div class="clear"></div>
-
-        <dl>
-            <dd class="clear"></dd>
-
-            <dt>Projects</dt>
-            <dd>
-                <h2>treebnb <span><a href="http://www.treebnb.me">Live</a> - <a href="https://github.com/jorgerro/treebnb">Source</a></span></h2>
-                <ul>
-                    <li>An airbnb clone that exclusively features tree houses</li>
-                    <li>Built using Ruby on Rails and includes a Backbone.js Dashboard feature</li>
-                    <li>Used custom SQL queries in order to validate room requests</li>
-                    <li>Added logic to the jQuery UI calendar to check individual dates against the database</li>
-                    <li>Overwrote parse method in Backbone message model, customized JSON using Jbuilder</li>
-                    <li>Hand styled all page views</li>
-                </ul>
-            </dd>
-
-            <dd class="clear"></dd>
-
-            <dt class="skills">Skills</dt>
-            <dd>
-                <h2></h2>
-                <p>Ruby, Ruby on Rails, SQL, JavaScript, jQuery, Backbone.js, Git, RSpec, HTML, CSS</p>
-            </dd>
-
-            <dd class="clear"></dd>
-
-            <dt>Experience</dt>
-            <dd>
-                <h2>USC Dept. of Physics & Astronomy <span>Research Assistant - Los Angeles, CA - 2008-2011</span></h2>
-                <ul>
-                    <li>Examined the patterns of internal changes of the sun over the 11-year solar cycle</li>
-                    <li>Analyzed data from the Solar and Heliospheric Observatory (SoHO) satellite</li>
-                    <li>Discovered irregular behavior in the sun's magnetic field during the peak of the solar cycle</li>
-                    <li>Presented the work at symposia held at UC Berkeley and CalTech</li>
-                </ul>
-
-                <h2>Rensselaer Polytechnic University <span>Research Assistant - Troy, NY - 2010</span></h2>
-                <ul>
-                    <li>Simulated the interaction between ions in solution and a DPPC lipid bilayer cell membrane</li>
-                    <li>Self taught in Bash scripting, used to submit jobs to Rensselaer's supercomputing cluster</li>
-                </ul>
-
-                <h2>Claremont High School <span>AVID Tutor - Claremont, CA - 2013</span></h2>
-                <ul>
-                    <li>Taught upper level high school math and science to groups of five to ten students</li>
-                    <li>Acted as a mentor and advisor to students interested in attending college</li>
-                </ul>
-
-                <h2>Topia English Academy <span>Instructor - Seoul, South Korea - 2012</span></h2>
-                <ul>
-                    <li>Taught classes in debate, reading, and speaking</li>
-                    <li>Coached a debate team through finals for a competition that hosted teams from the greater Seoul area</li>
-                </ul>
-
-                <h2>The Learning Ladder <span>Tutor - La Cañada Flintridge, CA - 2011</span></h2>
-                <ul>
-                    <li>Helped struggling students to succeed in upper division high school and college courses</li>
-                    <li>Specialized in science, mathematics and Spanish</li>
-                </ul>
-
-            </dd>
-
-            <dd class="clear"></dd>
-
-            <dt>Education</dt>
-            <dd>
-                <h2>University of Southern California <span>Los Angeles, CA - 2007-2011</span></h2>
-                <p><strong>Major:</strong> Physics, B.S.<br />
-                   <strong>Minor:</strong> Jazz Studies</p>
-            </dd>
-
-            <dd class="clear"></dd>
-
-            <!-- <dt>Hobbies</dt>
-            <dd>World Domination, Deep Sea Diving, Murder Most Foul</dd>
-
-            <dd class="clear"></dd> -->
-        </dl>
-
-        <div class="clear"></div>
-
+-->            </p>
     </div>
+
+    <div id="objective">
+        <p>
+            Formerly focused on making it in academia, I spent time doing research and learning to teach.
+            Before long, I discovered web development and began applying my computational skills to a wider range of problems.
+            I'm happiest when solving problems and creating something that works well and
+            looks sharp.
+        </p>
+    </div>
+
+    <div class="clear"></div>
+
+    <dl>
+        <dd class="clear"></dd>
+
+        <dt>Projects</dt>
+        <dd>
+            <h2>treebnb <span><a href="http://www.treebnb.me">Live</a> - <a href="https://github.com/jorgerro/treebnb">Source</a></span></h2>
+            <ul>
+                <li>An airbnb clone that exclusively features tree houses</li>
+                <li>Built using Ruby on Rails and includes a Backbone.js Dashboard feature</li>
+                <li>Used custom SQL queries in order to validate room requests</li>
+                <li>Added logic to the jQuery UI calendar to check individual dates against the database</li>
+                <li>Overwrote parse method in Backbone message model, customized JSON using Jbuilder</li>
+                <li>Hand styled all page views</li>
+            </ul>
+        </dd>
+
+        <dd class="clear"></dd>
+
+        <dt class="skills">Skills</dt>
+        <dd>
+            <h2></h2>
+            <p>Ruby, Ruby on Rails, SQL, JavaScript, jQuery, Backbone.js, Git, RSpec, HTML, CSS</p>
+        </dd>
+
+        <dd class="clear"></dd>
+
+        <dt>Experience</dt>
+        <dd>
+            <h2>USC Dept. of Physics & Astronomy <span>Research Assistant - Los Angeles, CA - 2008-2011</span></h2>
+            <ul>
+                <li>Examined the patterns of internal changes of the sun over the 11-year solar cycle</li>
+                <li>Analyzed data from the Solar and Heliospheric Observatory (SoHO) satellite</li>
+                <li>Discovered irregular behavior in the sun's magnetic field during the peak of the solar cycle</li>
+                <li>Presented the work at symposia held at UC Berkeley and CalTech</li>
+            </ul>
+
+            <h2>Rensselaer Polytechnic University <span>Research Assistant - Troy, NY - 2010</span></h2>
+            <ul>
+                <li>Simulated the interaction between ions in solution and a DPPC lipid bilayer cell membrane</li>
+                <li>Self taught in Bash scripting, used to submit jobs to Rensselaer's supercomputing cluster</li>
+            </ul>
+
+            <h2>Claremont High School <span>AVID Tutor - Claremont, CA - 2013</span></h2>
+            <ul>
+                <li>Taught upper level high school math and science to groups of five to ten students</li>
+                <li>Acted as a mentor and advisor to students interested in attending college</li>
+            </ul>
+
+            <h2>Topia English Academy <span>Instructor - Seoul, South Korea - 2012</span></h2>
+            <ul>
+                <li>Taught classes in debate, reading, and speaking</li>
+                <li>Coached a debate team through finals for a competition that hosted teams from the greater Seoul area</li>
+            </ul>
+
+            <h2>The Learning Ladder <span>Tutor - La Cañada Flintridge, CA - 2011</span></h2>
+            <ul>
+                <li>Helped struggling students to succeed in upper division high school and college courses</li>
+                <li>Specialized in science, mathematics and Spanish</li>
+            </ul>
+
+        </dd>
+
+        <dd class="clear"></dd>
+
+        <dt>Education</dt>
+        <dd>
+            <h2>University of Southern California <span>Los Angeles, CA - 2007-2011</span></h2>
+            <p><strong>Major:</strong> Physics, B.S.<br />
+               <strong>Minor:</strong> Jazz Studies</p>
+        </dd>
+
+        <dd class="clear"></dd>
+
+        <!-- <dt>Hobbies</dt>
+        <dd>World Domination, Deep Sea Diving, Murder Most Foul</dd>
+
+        <dd class="clear"></dd> -->
+    </dl>
+
+    <div class="clear"></div>
+
+</div>
