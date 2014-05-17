@@ -97,3 +97,7 @@ figure.picture-main {
   display: block;
   margin: 0 auto;
 }
+
+span.tab {
+  margin-left: 20px;
+}
