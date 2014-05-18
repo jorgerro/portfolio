@@ -71,6 +71,7 @@ h1.fn {
 
 #page-wrap ul {
   margin: 0 0 32px 17px;
+  /*list-style: inside;*/
 }
 
 #objective {
@@ -98,6 +99,10 @@ h1.fn {
 
 #page-wrap dt.skills {
   height: 35px;
+}
+
+#page-wrap dt.education {
+  height: 50px;
 }
 
 #page-wrap dd {

@@ -4,7 +4,7 @@ development:
   database: portfolio_development
   pool: 5
   encoding: utf8
-  username: appacademy
+  username: jorgerro
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -14,11 +14,11 @@ test:
   database: portfolio_test
   pool: 5
   encoding: utf8
-  username: appacademy
+  username: jorgerro
 
 production:
   adapter: postgresql
   database: portfolio_production
   pool: 5
   encoding: utf8
-  username: appacademy
+  username: jorgerro

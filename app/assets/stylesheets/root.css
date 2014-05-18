@@ -62,7 +62,7 @@ h1.greeting {
 }
 
 #main {
-  margin: 0 auto;
+  margin: 40px auto;
   width: 1030px;
 }
 
@@ -89,6 +89,10 @@ section.side-links a {
   float: left;
 }
 
+h3.tagline {
+  margin: 0 0 35px 72px;
+}
+
 figure.picture-main {
   overflow: hidden;
   width: 755px;
@@ -96,6 +100,14 @@ figure.picture-main {
   border-radius: 5px;
   display: block;
   margin: 0 auto;
+}
+
+section.summary {
+  color: #5a5a5a;
+  margin-top: 40px;
+  width: 758px;
+  display: block;
+  margin: 40px auto;
 }
 
 span.tab {
