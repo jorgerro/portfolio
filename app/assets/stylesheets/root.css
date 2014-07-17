@@ -102,6 +102,10 @@ figure.picture-main {
   margin: 0 auto;
 }
 
+figcaption {
+  text-align: right;    
+}
+
 section.summary {
   color: #5a5a5a;
   margin-top: 40px;
